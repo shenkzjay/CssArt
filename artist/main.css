@@ -1,0 +1,161 @@
+.artist {
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.artist::after {
+  width: 20rem;
+  height: 20rem;
+  content: "";
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+  background-image: radial-gradient(ellipse, black 50%, transparent 50.5%),
+    linear-gradient(black, black), linear-gradient(black, black),
+    radial-gradient(
+      ellipse at center,
+      transparent 40%,
+      black 40.5%,
+      black 50%,
+      transparent 50.5%
+    ),
+    radial-gradient(
+      ellipse at 40px 0,
+      brown 40.5%,
+      saddlebrown 50%,
+      transparent 50.5%
+    ),
+    radial-gradient(circle, black 50%, transparent 50.5%),
+    linear-gradient(black, black),
+    linear-gradient(140deg, transparent 50%, rgb(165, 42, 42, 0.5) 50%),
+    radial-gradient(
+      ellipse at right,
+      #c68863 50%,
+      transparent 50.5%,
+      transparent
+    ),
+    /* halfcircle*/ radial-gradient(ellipse, black 50%, transparent 50.5%),
+    radial-gradient(ellipse, #c68863 50%, transparent 50.5%);
+
+  background-size: 5.2rem 1rem, /*front hair*/ 3.5rem 1.5rem,
+    /*front hair*/ 0.9rem 0.3rem, /*glasses frame*/ 4rem 4rem,
+    /*glasses*/ 2rem 1.5rem, /*mouth*/ 1.4rem 1.4rem, /*eyes*/ 0.65rem 0.3rem,
+    /*glass-frame2*/ 0.8rem 0.5rem, /*nose*/ 6rem 16rem,
+    /* halfcircle*/ 6rem 10.3rem, /* back hair*/ 2rem 4rem; /*ear*/
+
+  background-position: 20.5% 31%, /* front hair*/ 24% 34%,
+    /* front hair*/ 17% 55%, /*glasses frame*/ 22% 57%, /* glasses*/ 30% 80%,
+    /*mouth*/ 26% 55%, /* eyes*/ 35% 55%, /* glass-frame2*/ 34% 67%,
+    /* nose*/ 10% 100%, /* halfcircle*/ 9% 49.5%, /* backhair*/ 12% 65%; /*ear*/
+
+  background-repeat: no-repeat;
+}
+
+.artist::before {
+  width: 20rem;
+  height: 20rem;
+  content: "";
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+  background-image: linear-gradient(
+      -20deg,
+      transparent 20%,
+      mediumvioletred 20%,
+      mediumvioletred 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      158deg,
+      transparent 30%,
+      paleturquoise 30%,
+      deepskyblue 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      158deg,
+      transparent 30%,
+      gold 30%,
+      goldenrod 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      158deg,
+      transparent 30%,
+      lawngreen 30%,
+      darkgreen 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      158deg,
+      transparent 30%,
+      salmon 30%,
+      firebrick 50%,
+      transparent 50%
+    ),
+    linear-gradient(
+      20deg,
+      transparent 20%,
+      paleturquoise 20.5%,
+      deepskyblue 50%,
+      transparent 50.5%
+    ),
+    /*bar top*/
+      radial-gradient(ellipse at left, paleturquoise 50%, transparent 50.5%),
+    linear-gradient(
+      20deg,
+      transparent 20%,
+      paleturquoise 20.5%,
+      deepskyblue 50%,
+      transparent 50.5%
+    ),
+    radial-gradient(
+      circle at center,
+      crimson 35%,
+      white 35.5%,
+      black 40%,
+      black 50%,
+      transparent 50.5%
+    ),
+    radial-gradient(
+      circle at center,
+      gold 35%,
+      white 35.5%,
+      black 40%,
+      black 50%,
+      transparent 50.5%
+    ),
+    radial-gradient(
+      circle at center,
+      lawngreen 35%,
+      white 35.5%,
+      black 40%,
+      black 50%,
+      transparent 50.5%
+    ),
+    linear-gradient(black 10%, white 10.5%, white 90%, black 90.5%),
+    repeating-radial-gradient(
+      circle at 5%,
+      goldenrod,
+      goldenrod 10px,
+      transparent 10.5px,
+      transparent 20px
+    );
+
+  background-size: 3rem 11rem, /*color case*/ 4rem 1.8rem,
+    /*pencil-case*/ 5rem 1.5rem, /*pencil*/ 4rem 1.8rem,
+    /*pencil-case2*/ 5rem 1.5rem, /*pencil2*/ 4rem 8.5rem, /*bartop*/ 1rem 4rem,
+    /*spraycan*/ 1rem 4rem, /*spraycan*/ 2.5rem 2.5rem,
+    /*pallete*/ 2.5rem 2.5rem, /*pallete2*/ 2.5rem 2.5rem,
+    /*pallete3*/ 8rem 3.5rem, /*bar bottom*/ 7rem 7rem; /*circle pattern*/
+
+  background-position: 42% 4%, /*color-case*/ 62% 39%, /*pencil-cover*/ 52% 29%,
+    /*pencil*/ 58% 35.5%, /*pencil-cover2*/ 63% 30%, /*pencil2*/ 41% 94%,
+    /*bartop*/ 55.5% 95.5%, /*spraycan*/ 57.5% 92.5%, /*spraycan-rod*/ 41% 64.5%,
+    /*pallete*/ 52% 64.5%, /*pallete2*/ 63% 64.5%, /*pallete3*/ 45% 65.5%,
+    /*barbuttom*/ 30% 66.5%; /*circle pattern*/
+
+  background-repeat: no-repeat;
+}
